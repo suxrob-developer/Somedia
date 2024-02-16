@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    list-style: none;
+    text-decoration-line: none;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+    padding: 0px 40px;
+}
+.nav-items ul li a{
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.nav-items ul li a:hover{
+    color: orangered;
+}
+.header-text{
+    width: 100%;
+    height: 91vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text h1{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+.header-text p{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-text-items{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.header-text button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: bisque;
+    border-radius: 25px;
+    border: 2px solid white; 
+    cursor: pointer; 
+}
+.header-text button:hover{
+    color: bisque;
+    background-color:  rgb(86, 97, 104);
+}
+.service{
+    position: relative;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+
+}
+.service-works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.service-works .workers{
+    color: black;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+.workers img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+.workers h1{
+    margin: 20px 0px;
+}
+
+
+
+.about{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.about-title{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
+.about-text{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.photo-about{
+    width: 800px;
+    height: 600px;
+    background-image: url(./images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+}
+
+
+
+
+.git{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+}
+.git-text{
+    width: 800px;
+    text-align: center;
+}
+.git-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.git-input input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border: 2px solid rgb(86, 97, 104);
+    border-radius: 5px;
+    background-color: bisque;
+    font-size: 20px;
+}
+.git-input textarea{
+    width: 500px;
+    padding: 10px;
+    background-color: bisque;
+    border: 2px solid rgb(86, 97, 104);
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.git-btn button{
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    display: flex;    
+    position: sticky;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
+
+}
